@@ -125,7 +125,7 @@ Python         ████░░░░░░░░░░░░░░░░░�
 
 *"Beyond simple alerts. Beyond simple code."*
 
-![CommitPulse](https://commitpulse.vercel.app/api/streak?user=manassanjaymishra24)
+
 
 
 </div>
