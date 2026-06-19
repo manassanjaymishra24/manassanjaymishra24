@@ -10,7 +10,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=manassanjaymishra24&color=00d4aa&style=flat-square&label=PROFILE+VIEWS)](https://github.com/manassanjaymishra24)&nbsp;
 ![Joined](https://img.shields.io/badge/JOINED-SEP%202025-8b949e?style=flat-square)&nbsp;
-![Location](https://img.shields.io/badge/📍-Earth-8b949e?style=flat-square)&nbsp;
+![Location](https://img.shields.io/badge/📍-India-8b949e?style=flat-square)
 ![UTC](https://img.shields.io/badge/UTC-2026--06--18-21262d?style=flat-square)
 
 </div>
@@ -19,13 +19,17 @@
 
 ## 💫 About Me
 
-Hi, I'm **Manas** — an aspiring engineer passionate about building data-driven solutions and transforming complex information into actionable insights.
+Hey, I'm Manas — I build systems that turn raw, messy data into something you can act on.
 
-I enjoy working at the intersection of **data analytics**, **software development**, and **AI**, with hands-on experience in tools like Python, Pandas, and Streamlit.
+Recent work spans behavioral analytics ([Sentinel](https://github.com/manassanjaymishra24/Sentinel) — detects multi-week attack patterns and outputs auditable dry-run response plans) and market analysis ([Market-Oracle](https://github.com/manassanjaymishra24/Market-Oracle) — uncertainty-aware signal interpretation across timeframes). On the data side, I've shipped Streamlit dashboards like [Retail-analytics-pro](https://github.com/manassanjaymishra24/Retail-analytics-pro) that ingest raw sales data, auto-normalize schemas, and surface forecasts.
 
-- 🔭 I focus on creating **scalable, user-centric applications** that solve real-world problems
-- 🌱 Continuously exploring new technologies to expand my skill set
-- 💡 Particularly interested in leveraging **data and intelligent systems** to drive better decision-making and innovation
+I work mainly in **Python** for data/ML pipelines and **TypeScript** when a project needs a real frontend or backend-for-frontend layer — happy to go full-stack when the problem calls for it.
+
+🌱 Active open-source contributor — merged PRs across community projects
+
+🔭 Currently exploring: applied ML for decision systems (forecasting, anomaly detection, signal interpretation)
+
+💬 Open to collaborating on data + AI tooling, especially anything analytics-adjacent
 
 ---
 
