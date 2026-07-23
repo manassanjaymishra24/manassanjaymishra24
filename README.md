@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f1a,70:1a0a2e,100:1f0a14&height=220&section=header&text=MANAS%20SANJAY%20MISHRA&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineering%20Enthusiat%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Problem%20Solver&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1f1a,70:1a0a2e,100:1f0a14&height=220&section=header&text=MANAS%20SANJAY%20MISHRA&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineering%20Enthusiast%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Problem%20Solver&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%" />
 
 </div>
 
@@ -11,7 +11,6 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=manassanjaymishra24&color=00d4aa&style=flat-square&label=PROFILE+VIEWS)](https://github.com/manassanjaymishra24)&nbsp;
 ![Joined](https://img.shields.io/badge/JOINED-SEP%202025-8b949e?style=flat-square)&nbsp;
 ![Location](https://img.shields.io/badge/📍-India-8b949e?style=flat-square)
-![UTC](https://img.shields.io/badge/UTC-2026--06--18-21262d?style=flat-square)
 
 </div>
 
@@ -25,23 +24,29 @@ Recent work spans behavioral analytics ([Sentinel](https://github.com/manassanja
 
 I work mainly in **Python** for data/ML pipelines and **TypeScript** when a project needs a real frontend or backend-for-frontend layer — happy to go full-stack when the problem calls for it.
 
-🌱 Active open-source contributor — merged PRs across community projects
-
-🔭 Currently exploring: applied ML for decision systems (forecasting, anomaly detection, signal interpretation)
-
-💬 Open to collaborating on data + AI tooling, especially anything analytics-adjacent
+- 🌱 Active open-source contributor — merged PRs across community projects
+- 🔭 Currently exploring: applied ML for decision systems (forecasting, anomaly detection, signal interpretation)
+- 💬 Open to collaborating on data + AI tooling, especially anything analytics-adjacent
 
 ---
 
-## 🌐 Socials
+## 🎯 What I'm Currently Building
 
-<div align="center">
+- 📊 **Data Engineering & Analytics** — schema normalization, ETL pipelines, forecasting dashboards (Retail-analytics-pro, ecommerce-sales-eda)
+- 🛡️ **Behavioral Security Systems** — multi-week attack-pattern detection with auditable, dry-run response plans (Sentinel)
+- 📈 **Market Signal Interpretation** — uncertainty-aware analysis across multiple timeframes (Market-Oracle)
+- 🤖 **Applied ML for Decision Systems** — forecasting and anomaly detection as a general toolkit, not just one-off notebooks
+- 🌐 **Full-stack tooling** — TypeScript backend-for-frontend layers when a project needs a real UI on top of the data work
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manas-mishra-09436a37a)&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manassanjaymishra24@gmail.com)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manassanjaymishra24)
+---
 
-</div>
+## 🌟 Featured Projects
+
+| Project | What it does |
+|---|---|
+| 🛡️ [**Sentinel**](https://github.com/manassanjaymishra24/Sentinel) | Detects multi-week behavioral attack patterns and outputs auditable, dry-run incident response plans |
+| 📈 [**Market-Oracle**](https://github.com/manassanjaymishra24/Market-Oracle) | Uncertainty-aware market signal interpretation across multiple timeframes |
+| 🛒 [**Retail-analytics-pro**](https://github.com/manassanjaymishra24/Retail-analytics-pro) | Streamlit dashboard that ingests raw sales data, auto-normalizes schemas, and surfaces forecasts |
 
 ---
 
@@ -75,15 +80,7 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 
 ---
 
-
-
 ## 🛠️ Top Languages
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manassanjaymishra24&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=8b949e&langs_count=6" width="45%" />
-
-</div>
 
 ```
 TypeScript     ████████████████████████░░░░░░░░░░░░░░░░  50%
@@ -92,44 +89,34 @@ JavaScript     ██████░░░░░░░░░░░░░░░�
 Python         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8%
 ```
 
+<!--
+Want the animated donut chart / pinned-repo cards back instead of the table above?
+Those use github-readme-stats.vercel.app, which is a shared public instance and
+frequently returns broken images once it hits GitHub's API rate limit. Fix:
+self-host your own instance (free, ~5 min): 
+https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
+Then just swap the image URL's domain for your own deployment's domain.
+-->
+
 ---
 
-
-## 🚀 Featured Repositories
+## 🌐 Socials
 
 <div align="center">
 
-<a href="https://github.com/manassanjaymishra24/story-spark-ai">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manassanjaymishra24&repo=story-spark-ai&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=8b949e" />
-</a>
-<a href="https://github.com/manassanjaymishra24/Sentinel">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manassanjaymishra24&repo=Sentinel&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa&text_color=8b949e" />
-</a>
-
-<a href="https://github.com/manassanjaymishra24/Resonance-Tunin-In">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manassanjaymishra24&repo=Resonance-Tunin-In&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f59e0b&icon_color=f59e0b&text_color=8b949e" />
-</a>
-<a href="https://github.com/manassanjaymishra24/ecommerce-sales-eda">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manassanjaymishra24&repo=ecommerce-sales-eda&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f472b6&icon_color=f472b6&text_color=8b949e" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manas-mishra-09436a37a)&nbsp;
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manassanjaymishra24@gmail.com)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manassanjaymishra24)&nbsp;
+![Discord](https://img.shields.io/badge/Discord-msm24__-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
 </div>
 
 ---
 
-
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f0a14,40:1a0a2e,70:0d1f1a,100:0d1117&height=120&section=footer&text=Building+systems+that+think&fontSize=16&fontColor=8b949e&fontAlignY=65&animation=fadeIn" width="100%" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manas-mishra-09436a37a)&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manassanjaymishra24@gmail.com)&nbsp;
-[![GitHub](https://img.shields.io/badge/github-manassanjaymishra24-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manassanjaymishra24)
-
 *"Beyond simple alerts. Beyond simple code."*
-
-
-
 
 </div>
