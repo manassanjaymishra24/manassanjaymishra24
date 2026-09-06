@@ -1,0 +1,34 @@
+name: Generate Static Metrics SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day
+  workflow_dispatch: {}    # trigger manually from the Actions tab the first time
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: manassanjaymishra24
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0
+          config_display: large
+          config_theme: github-dark
+          # commits the rendered SVG straight into this repo instead of
+          # serving it live, so it always loads from raw.githubusercontent.com
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
