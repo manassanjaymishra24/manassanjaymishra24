@@ -36,17 +36,6 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/manassanjaymishra24/manassanjaymishra24/main/metrics/metrics.svg" alt="GitHub metrics" width="100%" />
-
-</div>
-
-<sub>Generated once a day by `metrics-workflow.yml` and committed as a static file — no live rendering, no shared rate limits, no broken images.</sub>
-
----
 
 ## 🎯 What I'm Currently Building
 
