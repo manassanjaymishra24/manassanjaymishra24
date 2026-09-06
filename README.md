@@ -2,6 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,35:0072ff,70:7b2ff7,100:9b30ff&height=220&section=header&text=MANAS%20SANJAY%20MISHRA&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineering%20Enthusiast%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Problem%20Solver&descAlignY=60&descColor=e6f2ff&animation=fadeIn" width="100%" />
 
+<a href="https://github.com/manassanjaymishra24">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=7B2FF7&center=true&vCenter=true&width=600&lines=Turning+messy+data+into+decisions;Building+auditable%2C+dry-run+ML+systems;Hybrid+search+%2B+RAG+%2B+forecasting;Open+to+data+%2B+AI+collaborations" alt="Typing SVG" />
+</a>
+
 </div>
 
 ---
@@ -20,13 +24,27 @@
 
 Hey, I'm Manas — I build systems that turn raw, messy data into something you can act on.
 
-Recent work spans behavioral analytics ([Sentinel](https://github.com/manassanjaymishra24/Sentinel) — detects multi-week attack patterns and outputs auditable dry-run response plans) and market analysis ([Market-Oracle](https://github.com/manassanjaymishra24/Market-Oracle) — uncertainty-aware signal interpretation across timeframes). On the data side, I've shipped Streamlit dashboards like [Retail-analytics-pro](https://github.com/manassanjaymishra24/Retail-analytics-pro) that ingest raw sales data, auto-normalize schemas, and surface forecasts.
+Recent work spans behavioral analytics ([Sentinel](https://github.com/manassanjaymishra24/Sentinel) — detects multi-week attack patterns and outputs auditable dry-run response plans), market analysis ([Market-Oracle](https://github.com/manassanjaymishra24/Market-Oracle) — uncertainty-aware signal interpretation across timeframes), and retrieval-augmented generation ([Hybrid-RAG-Pipeline](https://github.com/manassanjaymishra24/hybrid-rag-pipeline) — hybrid dense + BM25 search with reranking and verified citations, running fully local with no API keys). On the data side, I've shipped Streamlit dashboards like [Retail-analytics-pro](https://github.com/manassanjaymishra24/Retail-analytics-pro) that ingest raw sales data, auto-normalize schemas, and surface forecasts.
 
 I work mainly in **Python** for data/ML pipelines and **TypeScript** when a project needs a real frontend or backend-for-frontend layer — happy to go full-stack when the problem calls for it.
 
 - 🌱 Active open-source contributor — merged PRs across community projects
 - 🔭 Currently exploring: applied ML for decision systems (forecasting, anomaly detection, signal interpretation)
 - 💬 Open to collaborating on data + AI tooling, especially anything analytics-adjacent
+
+<img src="https://raw.githubusercontent.com/manassanjaymishra24/manassanjaymishra24/main/assets/terminal.svg" alt="terminal" width="100%" />
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/manassanjaymishra24/manassanjaymishra24/main/metrics/metrics.svg" alt="GitHub metrics" width="100%" />
+
+</div>
+
+<sub>Generated once a day by `metrics-workflow.yml` and committed as a static file — no live rendering, no shared rate limits, no broken images.</sub>
 
 ---
 
@@ -35,6 +53,7 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 - 📊 **Data Engineering & Analytics** — schema normalization, ETL pipelines, forecasting dashboards (Retail-analytics-pro, ecommerce-sales-eda)
 - 🛡️ **Behavioral Security Systems** — multi-week attack-pattern detection with auditable, dry-run response plans (Sentinel)
 - 📈 **Market Signal Interpretation** — uncertainty-aware analysis across multiple timeframes (Market-Oracle)
+- 🔎 **Retrieval-Augmented Generation** — local hybrid dense + BM25 search with reranking and empirically-verified citations, no API keys (Hybrid-RAG-Pipeline)
 - 🤖 **Applied ML for Decision Systems** — forecasting and anomaly detection as a general toolkit, not just one-off notebooks
 - 🌐 **Full-stack tooling** — TypeScript backend-for-frontend layers when a project needs a real UI on top of the data work
 
@@ -46,7 +65,36 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 |---|---|
 | 🛡️ [**Sentinel**](https://github.com/manassanjaymishra24/Sentinel) | Detects multi-week behavioral attack patterns and outputs auditable, dry-run incident response plans |
 | 📈 [**Market-Oracle**](https://github.com/manassanjaymishra24/Market-Oracle) | Uncertainty-aware market signal interpretation across multiple timeframes |
+| 🔎 [**Hybrid-RAG-Pipeline**](https://github.com/manassanjaymishra24/hybrid-rag-pipeline) | Local hybrid-search RAG system with dense + BM25 retrieval, reranking, and empirically-verified citations — no API keys, runs entirely on-device |
 | 🛒 [**Retail-analytics-pro**](https://github.com/manassanjaymishra24/Retail-analytics-pro) | Streamlit dashboard that ingests raw sales data, auto-normalizes schemas, and surfaces forecasts |
+
+<details>
+<summary>▶ View Hybrid-RAG-Pipeline architecture</summary>
+
+```
+Documents (PDF, docx, md)
+        │
+        ▼
+Parse → Chunk → Embed (dense + sparse) → Qdrant
+                                              │
+Question ──────────────────────────────────┐ │
+        │                                  ▼ ▼
+        ├─── Dense search (Qdrant) ───┐
+        └─── Sparse search (Qdrant) ──┴─→ RRF fusion → Rerank (top-5)
+                                                              │
+                                                              ▼
+                                              Ollama LLM generates cited answer
+                                                              │
+                                                              ▼
+                                    Structural + faithfulness verification
+                                                              │
+                                                              ▼
+                                                    Answer + citations + verification status
+```
+
+Fully local stack: FastAPI + Qdrant (dense & sparse in one collection) + `BAAI/bge-reranker-base` + `qwen2.5:7b-instruct` via Ollama. No API keys anywhere.
+
+</details>
 
 ---
 
@@ -83,20 +131,40 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 ## 🛠️ Top Languages
 
 ```
-TypeScript     ████████████████████████░░░░░░░░░░░░░░░░  50%
-Jupyter NB     █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  29%
-JavaScript     ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  13%
-Python         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8%
+Python         ██████████████████░░░░░░░░░░░░░░░░░░░░░░  45%
+TypeScript     ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  25%
+Jupyter NB     ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  20%
+JavaScript     ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10%
 ```
 
 <!--
-Want the animated donut chart / pinned-repo cards back instead of the table above?
-Those use github-readme-stats.vercel.app, which is a shared public instance and
-frequently returns broken images once it hits GitHub's API rate limit. Fix:
-self-host your own instance (free, ~5 min): 
+These percentages are a manual estimate based on Manas's own-authored projects
+(Sentinel, Market-Oracle, Retail-analytics-pro, hybrid-rag-pipeline, autotune-ai,
+Netflix-Data-Analysis, Resonance-Tunin-In), weighted toward Python since it's the
+primary language across most of his original data/ML/backend work. It intentionally
+excludes forked repos from open-source contributions, which would otherwise skew
+the numbers toward whatever language those upstream projects use.
+
+Want an exact, auto-computed version instead? Use github-readme-stats.vercel.app's
+Top Languages Card, which pulls live byte-counts from the GitHub API:
+https://github-readme-stats.vercel.app/api/top-langs/?username=manassanjaymishra24
+It's a shared public instance and can return a broken image once it hits GitHub's
+API rate limit. Fix: self-host your own instance (free, ~5 min):
 https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
-Then just swap the image URL's domain for your own deployment's domain.
+Then swap the image URL's domain for your own deployment's domain.
 -->
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/manassanjaymishra24/manassanjaymishra24/output/snake.svg" alt="Snake animation" />
+
+</div>
+
+<sub>Needs a one-time setup — see `snake-workflow.yml` to enable it (renders your contribution graph as an animated snake eating through the squares, recolored to match this profile).</sub>
 
 ---
 
