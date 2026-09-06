@@ -69,7 +69,7 @@ I work mainly in **Python** for data/ML pipelines and **TypeScript** when a proj
 | 🛒 [**Retail-analytics-pro**](https://github.com/manassanjaymishra24/Retail-analytics-pro) | Streamlit dashboard that ingests raw sales data, auto-normalizes schemas, and surfaces forecasts |
 
 <details>
-<summary>▶ View Hybrid-RAG-Pipeline architecture</summary>
+<summary>View Hybrid-RAG-Pipeline architecture</summary>
 
 ```
 Documents (PDF, docx, md)
@@ -163,8 +163,6 @@ Then swap the image URL's domain for your own deployment's domain.
 <img src="https://raw.githubusercontent.com/manassanjaymishra24/manassanjaymishra24/output/snake.svg" alt="Snake animation" />
 
 </div>
-
-<sub>Needs a one-time setup — see `snake-workflow.yml` to enable it (renders your contribution graph as an animated snake eating through the squares, recolored to match this profile).</sub>
 
 ---
 
