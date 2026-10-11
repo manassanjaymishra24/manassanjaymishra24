@@ -96,7 +96,7 @@ Fully local stack: FastAPI + Qdrant (dense & sparse in one collection) + `BAAI/b
 ![Python](https://img.shields.io/badge/python-0072FF?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C](https://img.shields.io/badge/c-%2300C6FF.svg?style=for-the-badge&logo=c&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%237B2FF7.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%230072FF.svg?style=for-the-badge&logo=javascript&logoColor=%23E6F2FF)
+![SQL](https://img.shields.io/badge/sql-%230072FF.svg?style=for-the-badge&logoColor=white)
 
 **Data & AI**
 
